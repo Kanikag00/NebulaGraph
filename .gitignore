@@ -1,0 +1,23 @@
+# Virtual environment
+graphlite/graph_env/
+
+# Model outputs and weights
+graphlite/lora_cpu_output/
+graphlite/lora_gpu_output/
+*.safetensors
+*.bin
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Generated query files
+nebula_queries.json
+
+# OS
+.DS_Store
